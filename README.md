@@ -39,9 +39,11 @@ To run locally, there are two required input files. One file contains the phenot
 
 An example command to train DNNGP to predict the phenotype pheno from the SNP data, genomic expression data or other related omics data with digital coding is the following:
 ```bash
-./dnngp.bin \
+python dnngp_runner.py \
   --batch_size [num] \
+  --epoch [num] \
   --lr [num] \
+  --patience [num] \
   --dropout1 [num] \
   --dropout2 [num] \
   --SNP [your omics-data file] \
