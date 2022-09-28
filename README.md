@@ -19,9 +19,9 @@ The Python project 'DNNGP' can be used to implement genome-wide prediction (GP),
 - [Version 1.0](#) -First version released on August, 20th, 2022
 
 
-## 🌟 Installation
+## 🌟 Requirements
 
-Installation supports Python 3.6. Follow the instructions at https://www.tensorflow.org/install/gpu to set up GPU support for faster model
+DNNGP requires Python 3.6. Follow the instructions at https://www.tensorflow.org/install/gpu to set up GPU support for faster model
 training. Once GPU is set up, install with
 [conda](https://docs.conda.io/projects/conda/en/latest/index.html) by executing
 these instructions from the root of the checked-out repository:
@@ -32,6 +32,10 @@ conda activate dnngp
 pip install -r requirements.txt
 ```
 Users can also use DNNGP on CPU, and the installation method is the same as above.
+
+## 🌟 Installation
+
+Download the [release package](https://github.com/AIBreeding/DNNGP/releases/download/v1.0.0/DNNGP-v1.0.0.zip) and unzip to your working directory.
 
 ## 🌟 How to run DNNGP
 
@@ -53,7 +57,10 @@ Of particular note is the [`run.py`](./DNNGP/run.py). This script is used to get
 
 ## 🔍 Data
 
-Extract the example data from example-data.tgz with `tar zxvf example-data.tgz`
+The example-data files are alread included in the [release package](https://github.com/AIBreeding/DNNGP/releases/download/v1.0.0/DNNGP-v1.0.0.zip), 
+
+You can also get the exmample data from source code.
+Download [example-data.tgz](https://github.com/AIBreeding/DNNGP/blob/main/example-data.tgz) and extract data with `tar zxvf example-data.tgz`.
 - [tomato332](#./example-data/tomato332)
 - [wheat599](#./example-data/wheat599)
 - [maize1404](#./example-data/maize1404)
