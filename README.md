@@ -53,10 +53,11 @@ Of particular note is the [`run.py`](./DNNGP/run.py). This script is used to get
 
 ## 🔍 Data
 
-- [tomato332](#./DNNGP-master/example-data/tomato332)
-- [wheat599](#./DNNGP-master/example-data/wheat599)
-- [maize1404](#./DNNGP-master/example-data/maize1404)
-- [wheat2000](#./DNNGP-master/example-data/wheat2000)
+Extract the example data from example-data.tgz with `tar zxvf example-data.tgz`
+- [tomato332](#./example-data/tomato332)
+- [wheat599](#./example-data/wheat599)
+- [maize1404](#./example-data/maize1404)
+- [wheat2000](#./example-data/wheat2000)
 
 ## Maintainers
 
@@ -73,4 +74,4 @@ Of particular note is the [`run.py`](./DNNGP/run.py). This script is used to get
 
 ## 📘 License
 
-[DNNGP](LICENSE) © Kelin Wang, Huihui Li
+[GPLv3](LICENSE) © Kelin Wang, Huihui Li
