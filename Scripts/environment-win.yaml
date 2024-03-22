@@ -6,6 +6,8 @@ channels:
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
   - https://mirrors.bfsu.edu.cn/anaconda/cloud/pytorch/
+  - conda-forge
+  - defaults
 dependencies:
   - _tflow_select=2.1.0=gpu
   - abseil-cpp=20210324.2=hd77b12b_0
@@ -121,5 +123,5 @@ dependencies:
     - mypy-extensions==1.0.0
     - pathspec==0.11.0
     - platformdirs==3.1.0
+    - tensorflow-probability==0.14.1
     - tomli==2.0.1
-#prefix: C:\Users\91425\.conda\envs\TF2

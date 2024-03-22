@@ -122,5 +122,6 @@ dependencies:
   - zipp=3.11.0=py39h06a4308_0
   - zlib=1.2.13=h5eee18b_0
   - pip:
+      - tensorflow-probability==0.14.0
       - framework-reproducibility==0.4.0
-prefix: /home/hao/miniconda3/envs/DNNGP3
+

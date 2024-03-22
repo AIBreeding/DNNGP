@@ -3,3 +3,4 @@ pandas=1.5.2
 scikit-learn=1.2.1
 numpy=1.23.5
 keras=2.6.0
+tensorflow-probability=0.14.1
