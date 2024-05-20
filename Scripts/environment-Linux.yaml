@@ -47,6 +47,7 @@ dependencies:
   - intel-openmp=2021.4.0=h06a4308_3561
   - joblib=1.1.1=py39h06a4308_0
   - jpeg=9e=h5eee18b_1
+  - keras=2.6.0=pyhd3eb1b0_0
   - keras-preprocessing=1.1.2=pyhd3eb1b0_0
   - krb5=1.19.4=h568e23c_0
   - ld_impl_linux-64=2.38=h1181459_1
