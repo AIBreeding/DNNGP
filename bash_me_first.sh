@@ -9,4 +9,6 @@ elif [ "$1" == "M" ]; then
     conda env create -f ./Scripts/environment-M1.yaml
 else
     echo "Invalid parameter: $1"
+    echo "Three parameters are available: L, I, and M"
+    echo "L:For Linux   I:For Mac-Intel   M:For Mac-M1"
 fi
