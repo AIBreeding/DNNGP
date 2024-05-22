@@ -21,4 +21,6 @@ elif [ "$1" == "M" ]; then
     open ./Scripts/M1/DNNGP-M1.app
 else
     echo "Invalid parameter: $1"
+    echo "Three parameters are available: L, I, and M"
+    echo "L:For Linux   I:For Mac-Intel   M:For Mac-M1"
 fi
